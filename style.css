@@ -411,4 +411,7 @@
       .news-box{
         max-width: 300px;
       }
+      .brame {
+        display: none;
+      }
 }
