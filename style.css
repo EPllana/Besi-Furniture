@@ -231,6 +231,11 @@
         display: flex;
         align-items: center; /* Shton hapësirë ndërmjet input-it dhe butonit */
         margin-top: 20px; /* Shton hapësirë ndërmjet titullit dhe kutisë së input-it */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
 
     }
     
@@ -250,7 +255,6 @@
         font-size: 16px;
         cursor: pointer;
         text-decoration: none;
-        
     }
     
     .news-box .btn:hover {
@@ -404,4 +408,7 @@
       .about-text h2 {
         font-size: 1.2rem;
     }
+      .news-box{
+        max-width: 300px;
+      }
 }
