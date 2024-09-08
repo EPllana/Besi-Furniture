@@ -260,7 +260,9 @@
     .news-box .btn:hover {
         background: #8fc53d;
     }
-    
+    .brame {
+      max-width: 550px;
+    }
     .newsletter h2 {
       color: #fff;
     }
@@ -412,6 +414,6 @@
         max-width: 300px;
       }
       .brame {
-        display: none;
+        max-width: 250px;
       }
 }
